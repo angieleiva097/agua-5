@@ -1,62 +1,57 @@
-/*Aquí llamamos la tipografía desde Google Fonts. Luego veremos cómo hacer esto con cualquier tipografía en otros repositorios*/
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
-
-body {
-  background-color: #caedfc;
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-h1 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
-  margin: 0;
-  position: absolute;
-  font-size: 50px;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  color: #222222;
+  background-color: #fcfcfc;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
-a {
-  color: blue;
-  text-decoration: none;
-}
-
-a:hover {
-  background-color: white;
-}
-
-#contenido {
-  width: 60%;
-  height: 100%;
-  margin: 0;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.texto {
-  margin: 0;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
+.encabezado {
   text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-.contenedor-imagen {
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-  width: 30vw;
-  height: 30vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+h1 {
+  font-size: 2.2rem;
+  font-weight: normal;
+  color: #111111;
+  margin-bottom: 10px;
 }
 
-.contenedor-imagen img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+.subtitulo {
+  font-style: italic;
+  color: #666666;
+  font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #222222;
+}
+
+p {
+  margin-bottom: 18px;
+  font-size: 1.05rem;
+  text-align: justify;
+}
+
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.85rem;
+  color: #888888;
+  text-align: center;
 }
